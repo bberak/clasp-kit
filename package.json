@@ -1,0 +1,11 @@
+{
+  "name": "clasp-kit",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm install @google/clasp -g",
+    "login": "clasp login",
+    "build": "node build.js",
+    "deploy": "clasp push && clasp undeploy --all && clasp deploy",
+    "open": "clasp open --webapp"
+  }
+}
